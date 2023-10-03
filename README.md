@@ -1,3 +1,3 @@
 # my-studies
 
-Repositorio criado para armazenar todas as minhas pastas de estudos.
+Repositório criado para armazenar todas as minhas pastas de estudo.
