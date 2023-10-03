@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estrangeiros</title>
+</head>
+<body>
+    <h1>Verificando Estrangeiros</h1>
+    <p>País do usuário: <input type="text" name="pais" id="ipais"></p>
+    <input type="button" value="Verificar" onclick="vEstrangeiros()">
+    <div id="msg">
+        
+    </div>
+    <div id="res">
+        
+    </div>
+
+    <script>
+        function vEstrangeiros() {
+            var loc = String(window.document.querySelector('#ipais').value);
+            var msg = window.document.querySelector('#msg');
+            var res = window.document.querySelector('#res');
+            
+            msg.innerHTML = `Você mora no ${loc}`;
+            if(loc == 'Brasil') {
+                res.innerHTML = 'Você é Brasileiro!';
+            } else {
+                res.innerHTML = 'Você é Estrangeiro!';
+            }
+        }
+    </script>
+</body>
+</html>

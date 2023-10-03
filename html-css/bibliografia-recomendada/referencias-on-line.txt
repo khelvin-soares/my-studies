@@ -1,0 +1,13 @@
+Referências On-line
+
+Referência MDN: Mozilla Developer Network
+link: https://developer.mozilla.org/pt-BR/docs/Web/HTML/Reference
+
+Referência W3C Standards: World Wide Web Consortium
+link: https://www.w3.org/standards/
+
+Referência WHATWG Living Standard: Web Hypertext Application Technology Working Group
+link: https://html.spec.whatwg.org/multipage/
+
+Referência W3Schools: Refsnes Data
+link: https://www.w3schools.com/

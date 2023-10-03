@@ -1,0 +1,9 @@
+Bibliografia Recomendada
+
+Livros da O'REILLY:
+
+[David Flanagam] - JavaScript: O guia definitivo.
+
+Livros da Novatec:
+
+[Maurício Samy Silva] - JavaScript: Guia do programador.
