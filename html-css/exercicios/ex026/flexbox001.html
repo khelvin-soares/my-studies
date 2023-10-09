@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox</title>
+
+    <style>
+        body {
+            background-color: bisque;
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        main {
+            height: 100vh;
+        }
+
+        main > div {
+            margin: 10px;
+            width: 150px;
+            height: 150px;
+            padding: 5px;
+            border-radius: 10px;
+        }
+
+        #container {
+            display: flex;
+            flex-direction: row; /* row | row-reverse | column | column-reverse */
+            justify-content: center; /* flex-start | flex-end | center | space-between | space-around */
+            align-items: baseline; /* flex-start | flex-end | center | stretch | baseline */
+            flex-wrap: wrap; /* nowrap | wrap | wrap-reverse */
+            align-content: flex-start; /* flex-start | flex-end | center | space-between | space-around */
+            row-gap: 10px;
+            column-gap: 10px;
+
+            /*
+                shorthands
+                flex-flow: row wrap; // flex-flow: flex-direction flex-wrap;
+                gap: 20px 15px; // gap: row-gap column-gap;
+            */
+        }
+
+        .bloco-1 {
+            font-size: 1.5em;
+            background-color: lightblue;
+        }
+
+        .bloco-2 {
+            font-size: 2.5em;
+            background-color: plum;
+        }
+
+        .bloco-3 {
+            font-size: 3.5em;
+            background-color: lightcoral;
+        }
+    </style>
+</head>
+<body>
+    <main id="container">
+        <div class="bloco-1">1</div>
+        <div class="bloco-2">2</div>
+        <div class="bloco-3">3</div>
+    </main>
+</body>
+</html>
