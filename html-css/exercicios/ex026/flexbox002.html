@@ -26,30 +26,51 @@
 
         #container {
             display: flex;
-            flex-direction: row; /* row | row-reverse | column | column-reverse */
-            justify-content: center; /* flex-start | flex-end | center | space-between | space-around */
-            align-items: center; /* flex-start | flex-end | center | stretch | baseline */
-            flex-wrap: wrap; /* nowrap | wrap | wrap-reverse */
-            align-content: center; /* flex-start | flex-end | center | space-between | space-around */
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            align-content: center;
             row-gap: 10px;
             column-gap: 30px;
-
-            /*
-                shorthands
-                flex-flow: row wrap; // flex-flow: flex-direction flex-wrap;
-                gap: 20px 15px; // gap: row-gap column-gap;
-            */
         }
 
         .bloco-1 {
+            order: 0;
+            /*
+            flex-grow: 0;
+            flex-shrink: 1;
+            flex-basis: auto;
+            */
+            flex: 0 1 auto; /* flex: flex-grow flex-shrink flex-basis; */
+            align-self: flex-start;
+
             background-color: lightblue;
         }
 
         .bloco-2 {
+            order: 0;
+            /*
+            flex-grow: 0;
+            flex-shrink: 1;
+            flex-basis: auto;
+            */
+            flex: 0 1 auto; /* flex: flex-grow flex-shrink flex-basis; */
+            align-self: flex-end;
+
             background-color: plum;
         }
 
         .bloco-3 {
+            order: 0;
+            /*
+            flex-grow: 0;
+            flex-shrink: 1;
+            flex-basis: auto;
+            */
+            flex: 0 1 auto; /* flex: flex-grow flex-shrink flex-basis; */
+            align-self: center;
+
             background-color: lightcoral;
         }
     </style>
@@ -59,7 +80,7 @@
         <div class="bloco-1">1</div>
         <div class="bloco-2">2</div>
         <div class="bloco-3">3</div>
-        <div class="bloco-1">4</div>
+        <!-- <div class="bloco-1">4</div>
         <div class="bloco-2">5</div>
         <div class="bloco-3">6</div>
         <div class="bloco-1">7</div>
@@ -67,7 +88,7 @@
         <div class="bloco-3">9</div>
         <div class="bloco-1">10</div>
         <div class="bloco-2">11</div>
-        <div class="bloco-3">12</div>
+        <div class="bloco-3">12</div> -->
     </main>
 </body>
 </html>
