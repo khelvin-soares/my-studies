@@ -1,18 +1,18 @@
 export const Dados = {
     Username: '[null]',
-    Password: 0,
     Email: '[null]',
+    Password: 0,
 };
 
-export function Cadastre(uUser, uPass, uEmail) {
+export function Cadastre(uUser, uEmail, uPass) {
     Dados.Username = uUser;
-    Dados.Password = uPass;
     Dados.Email = uEmail;
+    Dados.Password = uPass;
 }
 
 export default function viewData() {
     console.log('Cadastro concluido! Seus Dados:');
     console.log(`Usuario: ${Dados.Username}.`);
-    console.log(`Senha: ${Dados.Password}.`);
     console.log(`E-mail: ${Dados.Email}.`);
+    console.log(`Senha: ${Dados.Password}.`);
 }
