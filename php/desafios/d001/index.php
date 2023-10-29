@@ -15,7 +15,7 @@
             echo("<p>O seu antecessor é " . $num-1 . ".</p>");
             echo("<p>O seu Sucessor é " . $num+1 . ".</p>");
         ?>
-        <a href="javascript:history.go(-1)"><button>&lsaquo; Voltar</button></a>
+        <button onclick="javascript:history.go(-1)">&lsaquo; Voltar</button>
     </main>
 </body>
 </html>

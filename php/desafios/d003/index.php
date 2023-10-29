@@ -16,7 +16,7 @@
             echo("<p>Seus R$ " . $reais . " equivalem a <strong>US$ " . $dolares . "</strong>.</p>");
             echo("<p><strong>Cotação fixa de R$ " . $cot . "</strong> informada diretamente no código.</p>");
         ?>
-        <a href="javascript:history.go(-1)"><button>&lsaquo; Voltar</button></a>
+        <button onclick="javascript:history.go(-1)">&lsaquo; Voltar</button>
     </main>
 </body>
 </html>
