@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mensagens</title>
+    
+    <style>
+        * {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <h1>Desafio das mensagens</h1>
+    <input type="button" value="Botão 1" onclick="Clicou(1)">
+    <input type="button" value="Botão 2" onclick="Clicou(2)">
+    <input type="button" value="Botão 3" onclick="Clicou(3)">
+
+    <script>
+        function Clicou(b=0) {
+            window.alert(`Você clicou no ${b}° botão!`);
+        }
+    </script>
+</body>
+</html>

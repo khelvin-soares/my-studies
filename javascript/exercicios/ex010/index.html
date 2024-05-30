@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verificador de Idade</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Verificador de Idade</h1>
+    </header>
+    <main>
+        <p>Ano de Nascimento: <input type="number" name="ano" id="iano"></p>
+        <p>Sexo: <input type="radio" name="isexo" id="mas" checked>Masculino <input type="radio" name="isexo" id="fem">Feminino</p>
+        <input type="button" value="Verificar" onclick="Verificar()">
+        <p id="res">Preencha todos os dados acima para ver o resultado!</p>
+        <div id="conterFoto">
+            <!-- Foto -->
+        </div>
+    </main>
+    <footer>
+        <p>&copy; <strong>Kelvin Soares</strong></p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

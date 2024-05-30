@@ -1,0 +1,7 @@
+Referências On-line
+
+Referência MDN: Mozilla Developer Network
+link: https://developer.mozilla.org/pt-BR/docs/Web/JavaScript
+
+Referência ECMA: ECMA International
+link: https://www.ecma-international.org/publications-and-standards/standards/ecma-262/

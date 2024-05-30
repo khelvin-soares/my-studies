@@ -1,0 +1,9 @@
+PHP Documentation
+link: https://www.php.net/
+
+1º = Novatec: Aprendendo PHP - [David Sklar]
+2º = O'REILLY: PHP Moderno - [Josh Lockhart]
+3º = O'REILLY: Programming PHP - [Kevin tatroe & Peter MacIntyre]
+4º = Apress: Learn PHP 8 - [Steve Prettyman]
+5º = Apress: PHP & Quick Scripting Reference - [Mikael Olsson]
+6º = PHP & MySQL - [Jon Duckett]
