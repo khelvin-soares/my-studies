@@ -1,0 +1,13 @@
+.div_Container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    width: 250px;
+    height: 150px;
+    margin: auto;
+    padding: 10px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.313);
+    border-radius: 7px;
+    background-color: #33333325;
+}
